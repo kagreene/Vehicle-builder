@@ -61,7 +61,7 @@ class Truck extends Vehicle implements AbleToTow{
     if (vehicle.weight > this.towingCapacity){
       console.log(`The ${vehicle.make} ${vehicle.model} is too heavy to be towed.`)
     }
-    //How to make sure that the this is referring to the right things? Want to reference the vehicle's weight but the truck's towing capacity 
+    //'This' refers to the truck, while vehicle is the vehicle to be towed. 
 
     // TODO: Check if the vehicle's weight is less than or equal to the truck's towing capacity
     // TODO: If it is, log that the vehicle is being towed
